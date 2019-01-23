@@ -5,7 +5,7 @@ from pprint import pprint
 
 import requests
 
-from src.crawling import Browser
+from crawling import Browser
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="parameters")
