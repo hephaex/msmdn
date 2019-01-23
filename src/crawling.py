@@ -29,7 +29,7 @@ class Browser:
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 "
                              "(KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36")
         options.add_argument("lang=ko_KR")
-        self.driver = webdriver.Chrome('/Users/jungseungyang/executable/web_drivers/chromedriver_mac64/chromedriver',
+        self.driver = webdriver.Chrome('~/manga/chromedriver',
                                        options=options)
         self.driver.implicitly_wait(3)
 
