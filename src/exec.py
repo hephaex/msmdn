@@ -53,5 +53,3 @@ if __name__ == '__main__':
         if browser:
             Browser.driver_close()
         raise e
-
-
